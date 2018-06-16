@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SqliteEFSample.Database {
+namespace SqliteEFSampleDll.Database {
     [Table("title")]
-    class Title {
+    public class Title {
         [Column("title_id")]
         public int TitleID { get; set; }
 

@@ -8,9 +8,9 @@ using System.Data.Entity;
 using System.Data.Common;
 using SQLite.CodeFirst;
 
-namespace SqliteEFSample.Database {
+namespace SqliteEFSampleDll.Database {
 
-    class MusicGameData : DbContext {
+    public class MusicGameData : DbContext {
         public MusicGameData(DbConnection connection) :
             base(connection, true) {
         }
